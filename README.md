@@ -8,14 +8,14 @@ This project investigates that question by analyzing public discussions on Reddi
 
 ## Methodology
 
-I collected and validated 64 Reddit parent posts from July 25 through August 10 of each study year. After excluding four deleted posts with no usable text, I analyzed 60 posts using **Python and VADER**, a sentiment analysis tool designed for social media text.
+I collected and validated 64 Reddit parent posts from July 25 through August 10 of each study year. After excluding four deleted posts with no usable text, I analyzed 59 posts using **Python and VADER**, a sentiment analysis tool designed for social media text.
 
 The analysis compared sentiment scores, positive/neutral/negative classifications, and changes over time. I also calculated 95% confidence intervals to assess uncertainty around yearly average sentiment scores.
 
 ## Key Findings
 
 - **60 posts analyzed** across four study years.
-- **30 positive, 17 negative, and 13 neutral** sentiment classifications overall.
+- **29 positive, 17 negative, and 13 neutral** sentiment classifications overall.
 - Average sentiment increased from **0.164 in 2021 to 0.275 in 2026** on VADER's scale of -1 to +1.
 - The percentage of negative posts also increased, from **20.0% in 2021 to 28.6% in 2026**.
 - Sentiment varied considerably between years, with 2023 showing a less positive pattern than 2025 and 2026.
