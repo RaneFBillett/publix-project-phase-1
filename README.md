@@ -16,8 +16,8 @@ The analysis compared sentiment scores, positive/neutral/negative classification
 
 - **60 posts analyzed** across four study years.
 - **29 positive, 17 negative, and 13 neutral** sentiment classifications overall.
-- Average sentiment increased from **0.164 in 2021 to 0.275 in 2026** on VADER's scale of -1 to +1.
-- The percentage of negative posts also increased, from **20.0% in 2021 to 28.6% in 2026**.
+- Average sentiment increased from **0.134 in 2021 to 0.275 in 2026** on VADER's scale of -1 to +1.
+- The percentage of negative posts also increased, from **21.4% in 2021 to 28.6% in 2026**.
 - Sentiment varied considerably between years, with 2023 showing a less positive pattern than 2025 and 2026.
 
 **Conclusion:** The findings do not establish a consistent worsening trend. Although the share of negative posts increased between 2021 and 2026, average sentiment also became more positive. The results suggest a mixed pattern rather than a straightforward shift toward negativity.
