@@ -44,4 +44,21 @@ Python · Pandas · NLTK · VADER · Liu Opinion Lexicon · SciPy · Jupyter Not
 - [Analysis notebook](notebooks/dataExploration1.ipynb) — data exploration, sentiment scoring, and longitudinal analysis.
 - [Full portfolio case study](https://ranedomain.wordpress.com/2026/10/10/evaluating-the-evaluations-an-analysis-of-publix-employee-sentiment/) — detailed methodology, results, visualizations, and limitations.
 
-*Note: Research datasets are excluded from this repository, so reproducing the full analysis requires the original CSV files.*
+## Data Files
+
+The repository includes the raw Reddit data collected for the project and the validated datasets used for analysis.
+
+- **Raw data (`data/raw/`)**: The collected Reddit parent-post records for 2021, 2023, 2025, and 2026.
+- **Validated data (`data/processed/`)**: The datasets after validation and duplicate removal, prepared for analysis.
+- **Analysis notebook (`notebooks/dataExploration1.ipynb`)**: The Python notebook used for data exploration, sentiment scoring, and longitudinal analysis.
+
+The final sentiment analysis includes 59 posts with usable text. Four deleted 2026 posts were excluded from sentiment scoring because their text was unavailable.
+
+## Running the Analysis
+
+1. Clone or download this repository.
+2. Install Python and Jupyter Notebook or JupyterLab.
+3. Install the required libraries listed in the Tools section.
+4. Open `notebooks/dataExploration1.ipynb` and run the cells in order.
+
+The notebook's file paths must match the locations of the CSV files in your downloaded repository.
